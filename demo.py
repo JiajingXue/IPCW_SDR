@@ -252,7 +252,7 @@ if __name__ == "__main__":
     n, rho, p, censor_rate = 1000, 0.0, 10, .1
     n_validtest = 1000
     seed = 4210000
-    model = 'addition'
+    model = 'Cox'
     Representation_dim = 2
 
     # G-hat-train
